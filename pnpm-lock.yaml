@@ -4,6 +4,7 @@ specifiers:
   '@chakra-ui/react': ^2.4.6
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
+  '@fontsource/roboto': ^4.5.8
   '@types/react': ^18.0.26
   '@types/react-dom': ^18.0.9
   '@typescript-eslint/eslint-plugin': ^5.48.0
@@ -32,6 +33,7 @@ dependencies:
   '@chakra-ui/react': 2.4.6_7rmqxmvcooh6vn4y4z6d5tku5u
   '@emotion/react': 11.10.5_kzbn2opkn2327fwg5yzwzya5o4
   '@emotion/styled': 11.10.5_qvatmowesywn4ye42qoh247szu
+  '@fontsource/roboto': 4.5.8
   framer-motion: 8.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1712,6 +1714,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/roboto/4.5.8:
+    resolution: {integrity: sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==}
+    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}

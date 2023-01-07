@@ -1,9 +1,13 @@
-module.exports = {
-    env: {
-      "browser": true,
-      "es2021": true
+{
+  "env": {
+    "browser": true,
+    "es2021": true
   },
-  extends: [
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:import/recommended",
@@ -11,11 +15,11 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
-    "eslint-config-prettier",
+    "eslint-config-prettier"
   ],
-  settings: {
-    react: {
-      version: "detect",
+  "settings": {
+    "react": {
+      "version": "detect"
     },
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"]
@@ -25,10 +29,10 @@ module.exports = {
       //   paths: ["src"],
       //   extensions: [".js", ".jsx", ".ts", ".tsx"],
       // },
-      typescript: {
+      "typescript": {
         "alwaysTryTypes": true,
-        "project": "./tsconfig.json",
+        "project": "./tsconfig.json"
       }
-    },
-  },
-};
+    }
+  }
+}
