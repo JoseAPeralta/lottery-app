@@ -1,4 +1,4 @@
-import { Flex, Link, Text } from '@chakra-ui/react';
+import { Flex, Link } from '@chakra-ui/react';
 
 const Navbar = () => {
   return (
