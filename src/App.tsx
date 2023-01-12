@@ -1,14 +1,9 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Home } from '@/pages/home';
 
 function App() {
   return (
     <>
-      <Box bg={'red.800'} p={30} color={'white'} fontSize={'6xl'}>
-        Hello
-      </Box>
-      <Text as={'h1'} bg={'red.800'} p={30} color={'white'} fontSize={'6xl'}>
-        Hello
-      </Text>
+      <Home />
     </>
   );
 }
