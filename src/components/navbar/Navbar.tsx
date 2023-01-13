@@ -3,7 +3,16 @@ import { Flex } from '@chakra-ui/react';
 const Navbar = () => {
   return (
     <nav>
-      <Flex as={'ul'} alignItems={'center'} color={'white'} justifyContent={'end'} gap={'9'} p={'8'} bg={'primary.500'}>
+      <Flex
+        as={'ul'}
+        alignItems={'center'}
+        color={'white'}
+        justifyContent={'end'}
+        gap={'9'}
+        p={'8'}
+        mb={'16'}
+        bg={'primary.500'}
+      >
         {/* <Flex as={'li'}>
           <Link href='#'>Sorteos</Link>
         </Flex>

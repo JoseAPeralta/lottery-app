@@ -7,7 +7,7 @@ exports[`Component Navbar > Should match to snapshot 1`] = `
     <div>
       <nav>
         <ul
-          class="css-17hb6ge"
+          class="css-y6hi0i"
         />
       </nav>
     </div>
@@ -15,7 +15,7 @@ exports[`Component Navbar > Should match to snapshot 1`] = `
   "container": <div>
     <nav>
       <ul
-        class="css-17hb6ge"
+        class="css-y6hi0i"
       />
     </nav>
   </div>,
