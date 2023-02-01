@@ -1,8 +1,8 @@
-import { Table, Thead, Tbody, Tr, Th, Td, TableContainer, Heading } from '@chakra-ui/react';
+import { Table, Thead, Tbody, Tr, Th, Td, TableContainer, Heading, Box } from '@chakra-ui/react';
 
 const LotteryList = () => {
   return (
-    <section>
+    <Box as={'section'}>
       <Heading as={'h2'} m={'8'} size={'lg'} textAlign={'center'} p={'4'} bg={'primary.500'} color={'gray.50'}>
         Diciembre 2023
       </Heading>
@@ -65,7 +65,7 @@ const LotteryList = () => {
           </Tbody>
         </Table>
       </TableContainer>
-    </section>
+    </Box>
   );
 };
 
