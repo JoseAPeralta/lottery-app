@@ -25,5 +25,8 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './vitest-setup.ts',
+    coverage: {
+      provider: 'c8', // or 'c8'
+    },
   },
 });
