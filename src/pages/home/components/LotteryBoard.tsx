@@ -1,10 +1,10 @@
 import { Card, CardHeader, CardBody, Box, Heading, Text, Flex } from '@chakra-ui/react';
 import { LotteryDraw } from '@/models';
-import { DateToSpanish } from '@/helpers';
+import { dateToSpanish } from '@/helpers';
 
 const LotteryBoard = (props: LotteryDraw) => {
   const { drawDate, folio, letters, prizes, serie, type } = props;
-  const newDrawDate = DateToSpanish(drawDate);
+  const newDrawDate = dateToSpanish(drawDate);
 
   return (
     <>

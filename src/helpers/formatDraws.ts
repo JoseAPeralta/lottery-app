@@ -10,16 +10,17 @@ export const lotteryDrawByMonth = (lotteryDraw: LotteryDraws) => {
   const threeMonthAgo = subtractMonth(3);
 
   lotteryDraw.map((draw) => {
-    if (new Date(draw.drawDate).getMonth() == thisMonth) {
+    const drawMonth = new Date(draw.drawDate).getMonth();
+    if (drawMonth == thisMonth) {
       LotteryByMonth[0].push(draw);
     }
-    if (new Date(draw.drawDate).getMonth() == oneMonthAgo) {
+    if (drawMonth == oneMonthAgo) {
       LotteryByMonth[1].push(draw);
     }
-    if (new Date(draw.drawDate).getMonth() == twoMonthAgo) {
+    if (drawMonth == twoMonthAgo) {
       LotteryByMonth[2].push(draw);
     }
-    if (new Date(draw.drawDate).getMonth() == threeMonthAgo) {
+    if (drawMonth == threeMonthAgo) {
       LotteryByMonth[3].push(draw);
     }
   });
