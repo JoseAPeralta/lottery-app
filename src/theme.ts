@@ -10,7 +10,7 @@ const theme = extendTheme({
       500: '#263679',
     },
     secondary: {
-      500: '#263679',
+      500: '#E5211E',
     },
   },
 });
