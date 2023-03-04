@@ -18,7 +18,7 @@ const Home = () => {
     getDraws();
   }, []);
   const lotteryByMonth = lotteryDrawByMonth(lotteryDraws);
-
+  console.log(lotteryByMonth);
   return (
     <>
       <Navbar />

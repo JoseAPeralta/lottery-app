@@ -1,0 +1,290 @@
+// Vitest Snapshot v1
+
+exports[`Component LotteryBoard > Should match to snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="css-0"
+      >
+        <h2
+          class="chakra-heading css-17glj1"
+        >
+          marzo de 2023
+        </h2>
+        <div
+          class="chakra-table__container css-1plito7"
+        >
+          <table
+            class="chakra-table css-0"
+          >
+            <thead
+              class="css-0"
+            >
+              <tr
+                class="css-0"
+              >
+                <th
+                  class="css-0"
+                >
+                  Tipo
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Día
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Primero
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Segundo
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Tercero
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Letras
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Serie
+                </th>
+                <th
+                  class="css-0"
+                >
+                  Folio
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="css-0"
+            >
+              <tr
+                class="css-0"
+              >
+                <td
+                  class="css-0"
+                >
+                  Intermedio
+                </td>
+                <td
+                  class="css-0"
+                >
+                  1
+                </td>
+                <td
+                  class="css-0"
+                >
+                  0961
+                </td>
+                <td
+                  class="css-0"
+                >
+                  1700
+                </td>
+                <td
+                  class="css-0"
+                >
+                  0687
+                </td>
+                <td
+                  class="css-0"
+                >
+                  BADB
+                </td>
+                <td
+                  class="css-0"
+                >
+                  22
+                </td>
+                <td
+                  class="css-0"
+                >
+                  3
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="css-0"
+    >
+      <h2
+        class="chakra-heading css-17glj1"
+      >
+        marzo de 2023
+      </h2>
+      <div
+        class="chakra-table__container css-1plito7"
+      >
+        <table
+          class="chakra-table css-0"
+        >
+          <thead
+            class="css-0"
+          >
+            <tr
+              class="css-0"
+            >
+              <th
+                class="css-0"
+              >
+                Tipo
+              </th>
+              <th
+                class="css-0"
+              >
+                Día
+              </th>
+              <th
+                class="css-0"
+              >
+                Primero
+              </th>
+              <th
+                class="css-0"
+              >
+                Segundo
+              </th>
+              <th
+                class="css-0"
+              >
+                Tercero
+              </th>
+              <th
+                class="css-0"
+              >
+                Letras
+              </th>
+              <th
+                class="css-0"
+              >
+                Serie
+              </th>
+              <th
+                class="css-0"
+              >
+                Folio
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="css-0"
+          >
+            <tr
+              class="css-0"
+            >
+              <td
+                class="css-0"
+              >
+                Intermedio
+              </td>
+              <td
+                class="css-0"
+              >
+                1
+              </td>
+              <td
+                class="css-0"
+              >
+                0961
+              </td>
+              <td
+                class="css-0"
+              >
+                1700
+              </td>
+              <td
+                class="css-0"
+              >
+                0687
+              </td>
+              <td
+                class="css-0"
+              >
+                BADB
+              </td>
+              <td
+                class="css-0"
+              >
+                22
+              </td>
+              <td
+                class="css-0"
+              >
+                3
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
