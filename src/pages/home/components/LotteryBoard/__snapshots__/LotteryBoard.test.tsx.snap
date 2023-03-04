@@ -1,0 +1,262 @@
+// Vitest Snapshot v1
+
+exports[`Component LotteryBoard > Should match to snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="chakra-card css-rohcqf"
+      >
+        <header
+          class="chakra-card__header css-1e63vln"
+        >
+          <h2
+            class="chakra-heading css-0"
+          >
+            Sorteo 
+            Intermedio
+          </h2>
+          <h3
+            class="chakra-heading css-0"
+          >
+            01 de marzo de 2023
+          </h3>
+        </header>
+        <div
+          class="chakra-card__body css-0"
+        >
+          <section
+            class="css-1l4w6pd"
+          >
+            <div
+              class="css-cqolqg"
+            >
+              <p
+                class="css-gg4vpm"
+              >
+                Primer premio 
+                <b
+                  class="chakra-text css-0"
+                >
+                  0961
+                </b>
+              </p>
+              <p
+                class="css-gg4vpm"
+              >
+                Segundo premio 
+                <b
+                  class="chakra-text css-0"
+                >
+                  1700
+                </b>
+              </p>
+              <p
+                class="css-gg4vpm"
+              >
+                Tercer premio 
+                <b
+                  class="chakra-text css-0"
+                >
+                  0687
+                </b>
+              </p>
+            </div>
+          </section>
+          <section
+            class="css-1l4w6pd"
+          >
+            <div
+              class="css-epvgc3"
+            >
+              <p
+                class="css-gg4vpm"
+              >
+                Letras 
+                <b
+                  class="chakra-text css-0"
+                >
+                  BADB
+                </b>
+              </p>
+              <p
+                class="css-gg4vpm"
+              >
+                Serie 
+                <b
+                  class="chakra-text css-0"
+                >
+                  22
+                </b>
+              </p>
+              <p
+                class="css-gg4vpm"
+              >
+                Folio 
+                <b
+                  class="chakra-text css-0"
+                >
+                  3
+                </b>
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="chakra-card css-rohcqf"
+    >
+      <header
+        class="chakra-card__header css-1e63vln"
+      >
+        <h2
+          class="chakra-heading css-0"
+        >
+          Sorteo 
+          Intermedio
+        </h2>
+        <h3
+          class="chakra-heading css-0"
+        >
+          01 de marzo de 2023
+        </h3>
+      </header>
+      <div
+        class="chakra-card__body css-0"
+      >
+        <section
+          class="css-1l4w6pd"
+        >
+          <div
+            class="css-cqolqg"
+          >
+            <p
+              class="css-gg4vpm"
+            >
+              Primer premio 
+              <b
+                class="chakra-text css-0"
+              >
+                0961
+              </b>
+            </p>
+            <p
+              class="css-gg4vpm"
+            >
+              Segundo premio 
+              <b
+                class="chakra-text css-0"
+              >
+                1700
+              </b>
+            </p>
+            <p
+              class="css-gg4vpm"
+            >
+              Tercer premio 
+              <b
+                class="chakra-text css-0"
+              >
+                0687
+              </b>
+            </p>
+          </div>
+        </section>
+        <section
+          class="css-1l4w6pd"
+        >
+          <div
+            class="css-epvgc3"
+          >
+            <p
+              class="css-gg4vpm"
+            >
+              Letras 
+              <b
+                class="chakra-text css-0"
+              >
+                BADB
+              </b>
+            </p>
+            <p
+              class="css-gg4vpm"
+            >
+              Serie 
+              <b
+                class="chakra-text css-0"
+              >
+                22
+              </b>
+            </p>
+            <p
+              class="css-gg4vpm"
+            >
+              Folio 
+              <b
+                class="chakra-text css-0"
+              >
+                3
+              </b>
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -9,7 +9,7 @@ export interface ApiLotteryDraw {
     third: string;
   };
   serie: number;
-  ticket_date: Date;
+  ticket_date?: Date;
   type: string;
 }
 
@@ -24,7 +24,7 @@ export interface LotteryDraw {
     third: string;
   };
   serie: number;
-  ticketDate: Date;
+  ticketDate?: Date;
   type: string;
 }
 
