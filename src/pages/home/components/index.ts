@@ -1,2 +1,2 @@
-export { default as LotteryBoard } from './LotteryBoard';
-export { default as LotteryList } from './LotteryList';
+export * from './LotteryBoard';
+export * from './LotteryList';

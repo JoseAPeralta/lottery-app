@@ -1,6 +1,6 @@
 import { Table, Thead, Tbody, Tr, Th, Td, TableContainer, Heading, Box } from '@chakra-ui/react';
 import { LotteryDraws } from '@/models';
-import { MonthAndYearToSpanish } from '@/helpers';
+import { monthAndYearToSpanish } from '@/helpers';
 
 interface myprops {
   lotteryDraws: LotteryDraws;
@@ -21,7 +21,7 @@ const LotteryList = (props: myprops) => {
         color={'gray.50'}
         textTransform={'capitalize'}
       >
-        {MonthAndYearToSpanish(lotteryDraws[0].drawDate)}
+        {monthAndYearToSpanish(lotteryDraws[0].drawDate)}
       </Heading>
       <TableContainer m={'8'}>
         <Table variant='striped'>
