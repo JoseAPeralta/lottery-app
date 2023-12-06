@@ -10,6 +10,7 @@ describe('Component LotteryBoard', () => {
     letters: 'BADB',
     prizes: { first: '0961', second: '1700', third: '0687' },
     serie: 22,
+    ticketDate: 0,
     type: 'Intermedio',
   };
 
