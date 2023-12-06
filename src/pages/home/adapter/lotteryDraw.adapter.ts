@@ -1,18 +1,18 @@
-import { ApiLotteryDraw } from '@/models';
+import { ApiLotteryDraw, LotteryDraws } from '@/models';
 
 export const LotteryDrawAdapter = (LotteryDraw: ApiLotteryDraw) => {
   return {
     id: LotteryDraw._id,
-    drawDate: LotteryDraw.draw_date,
+    drawDate: LotteryDraw.date,
     folio: LotteryDraw.folio,
     letters: LotteryDraw.letters,
     prizes: LotteryDraw.prizes,
     serie: LotteryDraw.serie,
-    ticketDate: LotteryDraw.ticket_date,
+    ticketDate: LotteryDraw.number,
     type: LotteryDraw.type,
   };
 };
 
-export const LotteryDrawsAdapter = (LotteryDraws: ApiLotteryDraw[]) => {
+export const LotteryDrawsAdapter = (LotteryDraws: ApiLotteryDraw[]): LotteryDraws => {
   return LotteryDraws.map((lotteryDraw) => LotteryDrawAdapter(lotteryDraw));
 };

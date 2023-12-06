@@ -1,6 +1,6 @@
 export interface ApiLotteryDraw {
   _id: string;
-  draw_date: Date;
+  date: Date;
   folio: number;
   letters: string;
   prizes: {
@@ -9,7 +9,7 @@ export interface ApiLotteryDraw {
     third: string;
   };
   serie: number;
-  ticket_date?: Date;
+  number: number;
   type: string;
 }
 
@@ -24,13 +24,13 @@ export interface LotteryDraw {
     third: string;
   };
   serie: number;
-  ticketDate?: Date;
+  ticketDate: number;
   type: string;
 }
 
 export type LotteryDraws = Array<LotteryDraw>;
 
-export const LotteryDrawsEmptyState: LotteryDraws = [
+export const emptyLotteryDraws: LotteryDraws = [
   {
     id: '',
     drawDate: new Date(),
@@ -42,7 +42,7 @@ export const LotteryDrawsEmptyState: LotteryDraws = [
       third: '',
     },
     serie: 0,
-    ticketDate: new Date(),
+    ticketDate: 0,
     type: '',
   },
   {
@@ -56,7 +56,7 @@ export const LotteryDrawsEmptyState: LotteryDraws = [
       third: '',
     },
     serie: 0,
-    ticketDate: new Date(),
+    ticketDate: 0,
     type: '',
   },
   {
@@ -70,7 +70,7 @@ export const LotteryDrawsEmptyState: LotteryDraws = [
       third: '',
     },
     serie: 0,
-    ticketDate: new Date(),
+    ticketDate: 0,
     type: '',
   },
   {
@@ -84,12 +84,12 @@ export const LotteryDrawsEmptyState: LotteryDraws = [
       third: '',
     },
     serie: 0,
-    ticketDate: new Date(),
+    ticketDate: 0,
     type: '',
   },
 ];
 
-export const LotteryDrawEmptyState: LotteryDraw = {
+export const emptyLotteryDraw: LotteryDraw = {
   id: '',
   drawDate: new Date(),
   folio: 0,
@@ -100,6 +100,6 @@ export const LotteryDrawEmptyState: LotteryDraw = {
     third: '',
   },
   serie: 0,
-  ticketDate: new Date(),
+  ticketDate: 0,
   type: '',
 };

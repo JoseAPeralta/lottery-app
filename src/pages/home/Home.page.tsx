@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Flex, Show } from '@chakra-ui/react';
-import { LotteryDraws, LotteryDrawsEmptyState } from '@/models';
+import { LotteryDraws, emptyLotteryDraws } from '@/models';
 import { fetchLotteryDraws } from './services';
 import { Navbar } from '@/components';
 import { LotteryBoard, LotteryList } from './components';
 import { lotteryDrawByMonth } from '@/helpers';
 
 const Home = () => {
-  const [lotteryDraws, setLotteryDraws] = useState<LotteryDraws>(LotteryDrawsEmptyState);
+  const [lotteryDraws, setLotteryDraws] = useState<LotteryDraws>(emptyLotteryDraws);
 
   const getDraws = async () => {
     const result = await fetchLotteryDraws();
@@ -18,12 +18,12 @@ const Home = () => {
     getDraws();
   }, []);
   const lotteryByMonth = lotteryDrawByMonth(lotteryDraws);
-  console.log(lotteryByMonth);
+  console.log(lotteryDraws);
   return (
     <>
       <Navbar />
 
-      <Flex justifyContent={'center'}>
+      <Flex justifyContent='center'>
         <LotteryBoard {...lotteryDraws[0]} />
         <Show above='md'>
           <LotteryBoard {...lotteryDraws[1]} />
@@ -35,10 +35,11 @@ const Home = () => {
           <LotteryBoard {...lotteryDraws[3]} />
         </Show>
       </Flex>
+
       {lotteryByMonth[0].length !== 0 && <LotteryList lotteryDraws={lotteryByMonth[0]} />}
       {lotteryByMonth[1].length !== 0 && <LotteryList lotteryDraws={lotteryByMonth[1]} />}
       {lotteryByMonth[2].length !== 0 && <LotteryList lotteryDraws={lotteryByMonth[2]} />}
-      {lotteryByMonth[3].length !== 0 && <LotteryList lotteryDraws={lotteryByMonth[3]} />}
+      {/* {lotteryByMonth[3].length !== 0 && <LotteryList lotteryDraws={lotteryByMonth[3]} />} */}
     </>
   );
 };
