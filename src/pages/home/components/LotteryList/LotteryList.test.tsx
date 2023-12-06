@@ -15,6 +15,7 @@ describe('Component LotteryBoard', () => {
         third: '39',
       },
       serie: 2,
+      ticketDate: 0,
       type: 'Zodiaco',
     },
     {
@@ -28,6 +29,7 @@ describe('Component LotteryBoard', () => {
         third: '5915',
       },
       serie: 20,
+      ticketDate: 0,
       type: 'Intermedio',
     },
     {
@@ -41,6 +43,7 @@ describe('Component LotteryBoard', () => {
         third: '9971',
       },
       serie: 15,
+      ticketDate: 0,
       type: 'Dominical',
     },
     {
@@ -54,6 +57,7 @@ describe('Component LotteryBoard', () => {
         third: '5439',
       },
       serie: 8,
+      ticketDate: 0,
       type: 'Intermedio',
     },
     {
@@ -67,6 +71,7 @@ describe('Component LotteryBoard', () => {
         third: '2642',
       },
       serie: 19,
+      ticketDate: 0,
       type: 'Dominical',
     },
   ];
